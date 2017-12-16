@@ -1,0 +1,4 @@
+#Sat Dec 16 22:17:06 EET 2017
+base.0=/home/dave/Documents/Bionic-Scarab-ftc_app-3.5/TeamCode/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
