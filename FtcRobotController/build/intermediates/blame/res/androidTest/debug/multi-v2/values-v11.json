@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dave/Documents/Bionic-Scarab-ftc_app-3.5/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "C:\\Users\\radus\\Desktop\\Bionic Scarab(ftc_app-3.5)\\Bionic Scarab ftc_app-3.5\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "/home/dave/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/884f049d1e001daaabb10977cabd4977/res/values-v11/values-v11.xml",
+                    "source": "C:\\Users\\radus\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\6dd22d1f18f139ee4392fc8b451d5ed8\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\home\\dave\\Documents\\Bionic-Scarab-ftc_app-3.5\\FtcRobotController\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\home\\dave\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\884f049d1e001daaabb10977cabd4977\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
