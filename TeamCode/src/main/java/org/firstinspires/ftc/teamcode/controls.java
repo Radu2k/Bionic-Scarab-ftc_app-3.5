@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
-import java.sql.Time;
+
 /**
  * Created by dave on 12/16/17.
  */
@@ -22,8 +22,8 @@ public class controls extends LinearOpMode{
     private double upStep=0.1; //how fast to lift the cube
     private double leftPower;
     private double rightPower;
+    private double liftPower=0;
     private double powerRatio=99.0; //acceleration value the closer to 100 the faster the acceleration
-    private ElapsedTime timeheigh = new ElapsedTime();
 
     //main navigation function takes in drive as acceleration forward or backward and turn witch controls steering
     public void navigate(double drive,double turn){
@@ -34,23 +34,12 @@ public class controls extends LinearOpMode{
     }
     //
     public void lifter_up(){
-        upDrive.setPower(upStep);
-        if(upDrive.getPower()!=0)
-            timeheigh.reset();
 
-        if(timeheigh.seconds()>4 && upDrive.getPower()!=0) {
-            upDrive.setPower(0.0);
-        }
+        upDrive.setPower(upStep);
     }
 
     public void lifter_down(){
         upDrive.setPower(-upStep);
-        if(upDrive.getPower()!=0)
-            timeheigh.reset();
-
-        if(timeheigh.seconds()>4 && upDrive.getPower()!=0) {
-            upDrive.setPower(0.0);
-        }
     }
 
     public void lifter_stop(){
