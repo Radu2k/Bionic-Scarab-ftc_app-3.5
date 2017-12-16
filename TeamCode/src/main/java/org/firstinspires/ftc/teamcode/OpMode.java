@@ -139,6 +139,7 @@ public class OpMode extends com.qualcomm.robotcore.eventloop.opmode.OpMode
         leftDrive.setPower(leftPower);
         rightDrive.setPower(rightPower);
         upDrive.setPower(upLift);
+
         if(upDrive.getPower()!=0)
                 timeheigh.reset();
 
